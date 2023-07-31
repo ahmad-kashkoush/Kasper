@@ -1234,6 +1234,7 @@ footer ul{
   justify-content: space-between;
   width: 15%;
   font-size: 18px;
+  gap: 10px;
 }
 
 footer p:last-of-type{
@@ -1245,4 +1246,9 @@ footer p> span{
 }
 *:focus{
   outline: none !important;
+}
+@media (max-width:400px){
+  footer ul {
+    width: 50%;
+  }
 }
